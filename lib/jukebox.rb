@@ -28,4 +28,5 @@ def help
 end
 
 def list
+  array = songs.split(",")
 end
