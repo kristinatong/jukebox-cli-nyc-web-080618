@@ -27,10 +27,8 @@ def help
 - exit : exits this program"
 end
 
-def list
-  array = songs.split(",")
-  puts array
-  array.each_with_index do |value,index|
+def list(songs)
+  songs.each_with_index do |value,index|
     puts "#{index+1}. #{value}"
   end
 end
