@@ -32,3 +32,7 @@ def list(songs)
     puts "#{index+1}. #{value}"
   end
 end
+
+def play(songs)
+  puts "Please"
+end
