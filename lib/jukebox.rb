@@ -29,4 +29,6 @@ end
 
 def list
   array = songs.split(",")
+  array.each do |x|
+    puts 
 end
