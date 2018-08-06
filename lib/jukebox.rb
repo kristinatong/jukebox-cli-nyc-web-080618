@@ -29,6 +29,6 @@ end
 
 def list
   array = songs.split(",")
-  array.each do |x|
+  array.each_with_index do |value,index|
     puts 
 end
