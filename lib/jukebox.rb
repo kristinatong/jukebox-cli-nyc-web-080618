@@ -10,3 +10,5 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+puts "Enter your name:"
+users_name = gets.chomp
